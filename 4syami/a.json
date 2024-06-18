@@ -1,10 +1,9 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "type": "Manifest",
-    "id": "https://mina37010.github.io/4syami/manifest.json",
+    "id": "https://mina37010.github.io/4syami/manifest",
     "label": {"ja": [ "4つの三味線" ] },
     "items": [
-        // ここに各キャンバスの宣言が置かれる
         {
             "type": "Canvas",
             "id": "https://mina37010.github.io/4syami/canvas/1",
@@ -14,7 +13,6 @@
             "height": "1080",
             
             "items": [
-                // 常に表示しておきたいアノテーション・ページの宣言が置かれる
                 {
                     "type": "Annotation",
                     "id": "https://mina37010.github.io/4syami/annotation/1",
@@ -26,11 +24,10 @@
                         "width": "480",
                         "height": "270"
                     },
-                    "target": "https://example.org/Archive/Research2020/canvas/1"
+                    "target": "https://mina37010.github.io/4syami/canvas/1"
                 }
             ],
             "annotations": [
-                // 表示・非表示を切り替えたいアノテーション・ページの宣言が置かれる
             ]
         }
     ]
