@@ -26,10 +26,23 @@
                   "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/kunitachi%2180%2180-1368/50,700,480,270/480,270/0/default.jpg",
                   "type": "Image",
                   "format": "image/jpeg",
-                  "height": 480,
-                  "width": 270
+                  "height": 960,
+                  "width": 540
                 },
-                "target": "https://mina37010.github.io/4syami/canvas/p1#xywh=0,0,480,270"
+                "target": "https://mina37010.github.io/4syami/canvas/p1#xywh=0,0,960,540"
+              },
+              {
+                "id": "https://mina37010.github.io/4syami/annotation/p0001-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/kunitachi%2180%2180-1368/50,700,480,270/480,270/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 960,
+                  "width": 540
+                },
+                "target": "https://mina37010.github.io/4syami/canvas/p1#xywh=960,540,1920,1080"
               }
             ]
           }
