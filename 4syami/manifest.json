@@ -1,7 +1,7 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "type": "Manifest",
-    "id": "https://mina37010.github.io/4syami/manifest.json",
+    "id": "https://mina37010.github.io/4syami/manifest",
     "label": {"ja": [ "4つの三味線" ] },
     "items": [
         {
@@ -24,7 +24,7 @@
                         "width": "480",
                         "height": "270"
                     },
-                    "target": "https://example.org/Archive/Research2020/canvas/1"
+                    "target": "https://mina37010.github.io/4syami/canvas/1"
                 }
             ],
             "annotations": [
