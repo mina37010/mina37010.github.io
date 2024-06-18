@@ -1,42 +1,34 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@type": "sc:Manifest",
-  "@id": "https://github.com/mina37010/IIIF_manifest/tree/main/4syami/manifest.json",
-  "label": "anime",
-  "metadata": [
-    {
-      "label": "Title",
-      "value": "4 三味線 manifest"
-    }
-  ],
-  "attribution": "syamisen",
-  "sequences": [
-    {
-      "@type": "sc:Sequence",
-      "viewingHint": "individuals",
-      "canvases": [
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "type": "Manifest",
+    "id": "https://mina37010.github.io/4syami/manifest.json",
+    "label": {"ja": [ "4つの三味線" ] },
+    "items": [
         {
-          "@id": "https://github.com/mina37010/IIIF_manifest/tree/main/4syami/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "a0001",
-          "width": 1152,
-          "height": 896,
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "https://github.com/mina37010/IIIF_manifest/tree/main/4syami/canvas/0",
-              "resource": {
-                "@id": "https://github.com/mina37010/IIIF_manifest/tree/main/4syami/a0001.png",
-                "@type": "dctypes:Image",
-                "format": "image/png",
-                "width": 1152,
-                "height": 896
-              }
-            }
-          ]
+            "type": "Canvas",
+            "id": "https://mina37010.github.io/4syami/canvas/1",
+            "label": {"ja": [ "キャンバス 1" ] },
+            
+            "width": "1920",
+            "height": "1080",
+            
+            "items": [
+                {
+                    "type": "Annotation",
+                    "id": "https://mina37010.github.io/4syami/annotation/1",
+                    "motivation": "painting",
+                    "body": {
+                        "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/kunitachi%2180%2180-1368/50,700,480,270/480,270/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": "480",
+                        "height": "270"
+                    },
+                    "target": "https://example.org/Archive/Research2020/canvas/1"
+                }
+            ],
+            "annotations": [
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
