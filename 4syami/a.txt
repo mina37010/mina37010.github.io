@@ -1,0 +1,37 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "type": "Manifest",
+    "id": "https://mina37010.github.io/4syami/manifest.json",
+    "label": {"ja": [ "4つの三味線" ] },
+    "items": [
+        // ここに各キャンバスの宣言が置かれる
+        {
+            "type": "Canvas",
+            "id": "https://mina37010.github.io/4syami/canvas/1",
+            "label": {"ja": [ "キャンバス 1" ] },
+            
+            "width": "1920",
+            "height": "1080",
+            
+            "items": [
+                // 常に表示しておきたいアノテーション・ページの宣言が置かれる
+                {
+                    "type": "Annotation",
+                    "id": "https://mina37010.github.io/4syami/annotation/1",
+                    "motivation": "painting",
+                    "body": {
+                        "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/kunitachi%2180%2180-1368/50,700,480,270/480,270/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": "480",
+                        "height": "270"
+                    },
+                    "target": "https://example.org/Archive/Research2020/canvas/1"
+                }
+            ],
+            "annotations": [
+                // 表示・非表示を切り替えたいアノテーション・ページの宣言が置かれる
+            ]
+        }
+    ]
+}
