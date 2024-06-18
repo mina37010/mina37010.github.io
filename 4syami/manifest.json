@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://github.com/mina37010/IIIF_manifest/tree/main/4syami/manifest.json",
+  "label": "anime",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "4 三味線 manifest"
+    }
+  ],
+  "attribution": "syamisen",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "viewingHint": "individuals",
+      "canvases": [
+        {
+          "@id": "https://github.com/mina37010/IIIF_manifest/tree/main/4syami/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "a0001",
+          "width": 1152,
+          "height": 896,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://github.com/mina37010/IIIF_manifest/tree/main/4syami/canvas/0",
+              "resource": {
+                "@id": "https://github.com/mina37010/IIIF_manifest/tree/main/4syami/a0001.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "width": 1152,
+                "height": 896
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
