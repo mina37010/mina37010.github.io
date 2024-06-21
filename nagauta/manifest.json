@@ -1,0 +1,42 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://mina37010.github.io/nagauta/manifest.json",
+    "type": "Manifest",
+    "label": {
+      "en": [
+        "4th syamisen image"
+      ]
+    },
+    "items": [
+      {
+        "id": "https://mina37010.github.io/nagauta/canvas/p1",
+        "type": "Canvas",
+        "height": 1920,
+        "width": 1080,
+        "items": [
+          {
+            "id": "https://mina37010.github.io/nagauta/page/p1/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://mina37010.github.io/nagauta/annotation/p0001-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/kunitachi%2180%2180-0766/1750,350,900,540/1920,1080/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 1920,
+                  "width": 1080
+                },
+                "target": "https://mina37010.github.io/nagauta/canvas/p1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+
+
+  
